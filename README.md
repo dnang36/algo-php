@@ -16,7 +16,7 @@ Download code và run code tại đường dẫn https://github.com/dnang36/algo
 - Ưu điểm:
   - tái sử dụng code.
   - dễ dàng phát triển code trong tương lai 1 cách dễ dàng linh hoạt
-## 2. Triển khai class
+## 2. Triển khai class & object:
 - Để tạo ra một lớp bạn sử dụng từ khóa class tiếp theo là tên class, toàn bộ nội dung class định nghĩa trong cặp {}
 - Bên trong class có biến và hàm được gọi với tên là thuộc tính của lớp, phương thức của lớp. Toàn bộ tập hợp các thuộc tính và phương thức của lớp được gọi là thành viên (member) của lớp.
 
@@ -29,6 +29,21 @@ class MyClass
 }
 ?>
 ````
+
+- Sau khi có được định nghĩa lớp như vậy, việc tạo ra một đối tượng của lớp thì dùng toán tử new: $obj = new MyClass;, để xem nội dung class có thể dùng var_dump
+````
+<?php
+    class MyClass
+    {
+        
+    }
+    
+    $obj = new MyClass;
+    var_dump($obj);
+?>
+//Out: object(MyClass)
+````
+
 ### 2.1. Thuộc tính (property):
 
 - Thuộc tính là biến được khai báo trong class và có kèm theo các cơ chế (quy định phạm vi truy cập của 1 thuộc tính: public,protected,private)
