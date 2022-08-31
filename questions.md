@@ -11,7 +11,7 @@ Danh sách các ngôn ngữ khác:
 - [🇪🇬 اللغة العامية](../ar-EG/README_ar-EG.md)
 - [🇧🇦 Bosanski](../bs-BS/README-bs_BS.md)
 - [🇩🇪 Deutsch](../de-DE/README.md)
-- [🇬🇧 English](../README.md)
+- [🇬🇧 English](README.md)
 - [🇪🇸 Español](../es-ES/README-ES.md)
 - [🇫🇷 Français](../fr-FR/README_fr-FR.md)
 - [🇮🇩 Indonesia](../id-ID/README.md)

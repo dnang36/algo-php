@@ -1,0 +1,14 @@
+{
+  "name": "dang/oop",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dang",
+      "email": "nguyendoandangndd@example.com"
+    }
+  ],
+  "require": {
+  }
+}
