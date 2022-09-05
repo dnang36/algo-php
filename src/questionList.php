@@ -2,6 +2,7 @@
 namespace algo;
 
 class questionList{
+
     protected array $list = [];
 
     public function __construct($listQuestion = [])

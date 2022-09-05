@@ -9,10 +9,13 @@ $questionList = new questionList();
 
 $parse = $questionList->parse($pathQuestion);
 //get all
-$getALl = $parse ->getList();
-print_r($getALl);
+//$getALl = $parse ->getList();
+//echo "<pre>";
+//print_r($getALl);
+
 
 // Get Question by number
  $numQuestions = 0;
  $getQuestion = $parse->getQuestion($numQuestions);
+ echo "<pre>";
  print_r($getQuestion);
