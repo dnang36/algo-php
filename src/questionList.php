@@ -31,7 +31,7 @@ class questionList{
     }
 
     public function getQuestion(int | array $indexes){
-        return $this->list[$indexes] ?: throw new Exception("No have question");;
+        return $this->list[$indexes] ?: throw new Exception("No have question");
     }
 
     public function all()

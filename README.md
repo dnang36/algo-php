@@ -45,7 +45,7 @@ class MyClass
 ````
 
 ### 2.1. Thuộc tính (property):
-
+- Chúng ta gọi các thuộc tính cho các biến bên trong một lớp. Thuộc tính có thể chấp nhận các giá trị như chuỗi, số nguyên và boolean (giá trị đúng / sai), giống như bất kỳ biến nào khác.
 - Thuộc tính là biến được khai báo trong class và có kèm theo các cơ chế (quy định phạm vi truy cập của 1 thuộc tính: public,protected,private)
 - Đại diện cho những thông tin cơ bản của đối tượng mình quản lý
 
@@ -97,7 +97,7 @@ echo $obj->name;
 ### 3.1. Tính kế thừa:
 ### 3.2. Tính đa hình:
 ### 3.3. Tính trừ tượng:
-### 3.4. Tính đóng : 
+### 3.4. Tính đóng gói: 
 
 
 ## 4. Magic method
